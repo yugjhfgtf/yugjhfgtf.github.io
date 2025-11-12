@@ -1,0 +1,189 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>是什么，为什么 | Less is more</title><meta name="author" content="yugjhfgtf"><meta name="copyright" content="yugjhfgtf"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="测试测试，能看到吗  这个博客从搭建教程到具体步骤都是网上毛的现成教程，笔者对其中的技术原理实际完全一窍不通  使用了hexo搭建+butterfly主题+github托管生成静态网页的方案  原因当然是我是纯纯的穷鬼，能租得起域名和服务器谁还会用静态网页的丐版方案    侧边栏的颜色自定义需要用到CSS知识，发评论要挂载Valine，访问数量要用不蒜子的接口上面说的这些这些笔者完全没折腾明白，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="是什么，为什么">
+<meta property="og:url" content="http://example.com/2025/11/12/%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88/index.html">
+<meta property="og:site_name" content="Less is more">
+<meta property="og:description" content="测试测试，能看到吗  这个博客从搭建教程到具体步骤都是网上毛的现成教程，笔者对其中的技术原理实际完全一窍不通  使用了hexo搭建+butterfly主题+github托管生成静态网页的方案  原因当然是我是纯纯的穷鬼，能租得起域名和服务器谁还会用静态网页的丐版方案    侧边栏的颜色自定义需要用到CSS知识，发评论要挂载Valine，访问数量要用不蒜子的接口上面说的这些这些笔者完全没折腾明白，">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/bochita.jpg">
+<meta property="article:published_time" content="2025-11-12T12:06:11.000Z">
+<meta property="article:modified_time" content="2025-11-12T12:30:40.300Z">
+<meta property="article:author" content="yugjhfgtf">
+<meta property="article:tag" content="“THE ALPHA”">
+<meta property="article:tag" content="“THE OMEGA”">
+<meta property="article:tag" content="“THE ONE”">
+<meta property="article:tag" content="“AND THE ONLY”">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/bochita.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "是什么，为什么",
+  "url": "http://example.com/2025/11/12/%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88/",
+  "image": "http://example.com/img/bochita.jpg",
+  "datePublished": "2025-11-12T12:06:11.000Z",
+  "dateModified": "2025-11-12T12:30:40.300Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "yugjhfgtf",
+      "url": "http://example.com"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/bochita.jpg"><link rel="canonical" href="http://example.com/2025/11/12/%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.2"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '是什么，为什么',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="web_bg" style="background-color: #6C7A89;"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/bochita.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-color: #6A6A6A;"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"></a><a class="nav-page-title" href="/"><span class="site-name">是什么，为什么</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">是什么，为什么</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-11-12T12:06:11.000Z" title="发表于 2025-11-12 20:06:11">2025-11-12</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-11-12T12:30:40.300Z" title="更新于 2025-11-12 20:30:40">2025-11-12</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p> <code>测试测试，能看到吗</code></p>
+<ul>
+<li><p><code>这个博客从搭建教程到具体步骤都是网上毛的现成教程，笔者对其中的技术原理实际完全一窍不通</code></p>
+</li>
+<li><p><code>使用了hexo搭建+butterfly主题+github托管生成静态网页的方案</code></p>
+</li>
+<li><p><code>原因当然是我是纯纯的穷鬼，能租得起域名和服务器谁还会用静态网页的丐版方案</code></p>
+</li>
+</ul>
+<blockquote>
+<p><code>侧边栏的颜色自定义需要用到CSS知识，发评论要挂载Valine，访问数量要用不蒜子的接口</code><br><code>上面说的这些这些笔者完全没折腾明白，所以aside部分的自定义背景，评论功能和访客记录暂时不考虑搭载</code></p>
+</blockquote>
+<h6 id="这个博客不会用来发技术文章——基本不会——注册这个博客的初衷其实是为了——就像公告里说的——存放我无处安放的脑内的纷杂念头们"><a href="#这个博客不会用来发技术文章——基本不会——注册这个博客的初衷其实是为了——就像公告里说的——存放我无处安放的脑内的纷杂念头们" class="headerlink" title="这个博客不会用来发技术文章——基本不会——注册这个博客的初衷其实是为了——就像公告里说的——存放我无处安放的脑内的纷杂念头们"></a>这个博客不会用来发技术文章——<em>基本不会</em>——注册这个博客的初衷其实是为了——<em>就像公告里说的</em>——存放我无处安放的脑内的纷杂念头们</h6><h2 id="一切的开始-（又名-关于我为什么要搭这个博客以及上面这段话在说什么以及为什么的可能的部分解答）"><a href="#一切的开始-（又名-关于我为什么要搭这个博客以及上面这段话在说什么以及为什么的可能的部分解答）" class="headerlink" title="一切的开始 （又名 关于我为什么要搭这个博客以及上面这段话在说什么以及为什么的可能的部分解答）"></a>一切的开始 （又名 关于我为什么要搭这个博客以及上面这段话在说什么以及为什么的可能的部分解答）</h2><p>笔者是个想的很多的人，也是想跟人分享的人，经常的笔者的脑内会冒出各种念头，合理的，不合理的，荒谬的，它们本该成为聊天中的话题或是其他类似的东西，但是出于各种原因吧，这些千条头绪的念头们最终还是积压了下来，我不去写下来它们，这些<em><strong>思考</strong></em>或者<em><strong>见闻</strong></em>或是<em><strong>遐想</strong></em>或是——<em><strong>所有的从我脑内奔逸而出的外溢的思绪</strong></em>，最终都会毫无意义地消逝在我思维的尽头，<em>这难道不算是丢失了一部分自己？</em></p>
+<p>另一方面，如果你每天想了很多但又是没人跟你聊这些话题，这种情况<em><strong>实在是很让人不爽</strong></em>，虽说可能确实，思维太电波的话，也没法指望随便就能遇到对上电波的人，也就没的聊，但是，“一直脑内冒出各种念头然后积压在记忆里最终等待被遗忘为新一批腾出位置”，这种情况怎么想也不太合理吧，总要有个解决办法</p>
+<p>过去我的权宜之计是把这些想法码下来发在qq动态里，但是这不是很打扰别人嘛，用这些奇奇怪怪的文字塞满我的动态也不能说是什么健康的习惯，我很清楚这不是个长久可行的方案，所以自然而然地，遵从古制，搭建一个博客成为了很有吸引力的方案</p>
+<p>但是很长时间以来，苦于没有什么大段的空闲时间，没有冲动，也没有技术力，这个项目被搁置了</p>
+<p>直到现在有了这个博客</p>
+<p>笔者虽然在理工科专业读书，但按说主要是为了不饿死，如果不用考虑现实去选的话，我还蛮想去学文，学历史，学写作，学近代欧陆哲学，学心理，或者去学应用心理学或精神医学，所以笔者在博客里发的可能会是些奇奇怪怪的非技术类文章，总之跟我的专业方向很可能不是很沾边</p>
+<p>某种程度上，写博客跟写日记还蛮像的，在笔者过去某一段非常短（大概不到9个月）的时间内坚持过写了一段时间的日记，但其实最后笔者发现自己对写日记感到非常困惑，因为冥冥中笔者感到日记是为了让别人看到而写的东西，如果不会有人看到，那写日记就没什么意义，给自己看的东西直接记在脑子里就好了，我知道这些想法在相当程度上是完全荒谬的，但是确实，它说服了当时的我——甚至是现在的我</p>
+<p>所以说，博客是写出来给人看的——给<em><strong>你</strong></em>看的——无论<em><strong>你</strong></em>是谁</p>
+<p>这个博客也不是为了起到什么保存想法啊，存留回忆啊，记录当下啊什么写出来的<br>很纯粹的，就是为了能让人看见笔者那些想法而搭的</p>
+<p>这个理由可能确实蛮诡异的<em>（ew…creepy…）</em>但是笔者不想撒谎，笔者从来不想撒谎</p>
+<p>基本上就这样，以后想到什么会单独发的…吧…</p>
+<p>小彩蛋:这个博客的形制甚至灵感，相当程度上来自一个住在德国的学亚述学的哥们的博客<br>那个博客叫COSMODOX，百度就能直接搜出来，非常的Coooooooool</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">yugjhfgtf</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2025/11/12/%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88/">http://example.com/2025/11/12/是什么，为什么/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC—BY-SA 3.0</a> 许可协议。转载请注明来源 <a href="http://example.com" target="_blank">Less is more</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E2%80%9CTHE-ALPHA%E2%80%9D/">“THE ALPHA”</a><a class="post-meta__tags" href="/tags/%E2%80%9CTHE-OMEGA%E2%80%9D/">“THE OMEGA”</a><a class="post-meta__tags" href="/tags/%E2%80%9CTHE-ONE%E2%80%9D/">“THE ONE”</a><a class="post-meta__tags" href="/tags/%E2%80%9CAND-THE-ONLY%E2%80%9D/">“AND THE ONLY”</a></div><div class="post-share"><div class="social-share" data-image="/img/bochita.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/bochita.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">yugjhfgtf</div><div class="author-info-description">并非技术博客</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">放置我脑内溢出的怪奇念头</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E4%B8%8D%E4%BC%9A%E7%94%A8%E6%9D%A5%E5%8F%91%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0%E2%80%94%E2%80%94%E5%9F%BA%E6%9C%AC%E4%B8%8D%E4%BC%9A%E2%80%94%E2%80%94%E6%B3%A8%E5%86%8C%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9D%E8%A1%B7%E5%85%B6%E5%AE%9E%E6%98%AF%E4%B8%BA%E4%BA%86%E2%80%94%E2%80%94%E5%B0%B1%E5%83%8F%E5%85%AC%E5%91%8A%E9%87%8C%E8%AF%B4%E7%9A%84%E2%80%94%E2%80%94%E5%AD%98%E6%94%BE%E6%88%91%E6%97%A0%E5%A4%84%E5%AE%89%E6%94%BE%E7%9A%84%E8%84%91%E5%86%85%E7%9A%84%E7%BA%B7%E6%9D%82%E5%BF%B5%E5%A4%B4%E4%BB%AC"><span class="toc-number">1.</span> <span class="toc-text">这个博客不会用来发技术文章——基本不会——注册这个博客的初衷其实是为了——就像公告里说的——存放我无处安放的脑内的纷杂念头们</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E5%88%87%E7%9A%84%E5%BC%80%E5%A7%8B-%EF%BC%88%E5%8F%88%E5%90%8D-%E5%85%B3%E4%BA%8E%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%90%AD%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E4%BB%A5%E5%8F%8A%E4%B8%8A%E9%9D%A2%E8%BF%99%E6%AE%B5%E8%AF%9D%E5%9C%A8%E8%AF%B4%E4%BB%80%E4%B9%88%E4%BB%A5%E5%8F%8A%E4%B8%BA%E4%BB%80%E4%B9%88%E7%9A%84%E5%8F%AF%E8%83%BD%E7%9A%84%E9%83%A8%E5%88%86%E8%A7%A3%E7%AD%94%EF%BC%89"><span class="toc-number"></span> <span class="toc-text">一切的开始 （又名 关于我为什么要搭这个博客以及上面这段话在说什么以及为什么的可能的部分解答）</span></a></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/11/12/%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88/" title="是什么，为什么"><div style="background: #6A6A6A"></div></a><div class="content"><a class="title" href="/2025/11/12/%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88/" title="是什么，为什么">是什么，为什么</a><time datetime="2025-11-12T12:06:11.000Z" title="发表于 2025-11-12 20:06:11">2025-11-12</time></div></div></div></div></div></div></main><footer id="footer" style="background-color: #6A6A6A;"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By yugjhfgtf</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.2"></script><script src="/js/main.js?v=5.5.2"></script><div class="js-pjax"></div><script async data-pjax src="/"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索..." type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.2"></script></div></div></body></html>
